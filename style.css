@@ -128,7 +128,7 @@ input[type=reset] {
     height: 50px;
     /* border: 1px solid #000; */
     position: absolute;
-    background-color: #e74c3c;
+    background-color: #ff0000;
 }
 
 .Circulo {
@@ -137,7 +137,7 @@ input[type=reset] {
     /* border: 1px solid #000; */
     border-radius: 50px;
     position: absolute;
-    background-color: #e74c3c;
+    background-color: #ff0000;
 }
 
 .Top {
@@ -149,7 +149,7 @@ input[type=reset] {
 }
 #freq{
     position: absolute;
-    padding-left: 40px;
+    padding-left: 50px;
     color: #fff;
 }
 
