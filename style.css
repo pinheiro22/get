@@ -6,13 +6,19 @@
     margin: 0;
     padding: 0;
 }
-
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     text-align: center;
+    background-color: #000000;
 }
 
+p{
+    color: #FFD700;
+}
+h3{
+    color: #FFD700;
+}
 /* cabeçalho */
 header {
     margin: 25px 0px 25px 0px;
@@ -21,7 +27,7 @@ header {
 
 header h1 {
     font-size: 2.5em;
-    color: #cc470d;
+    color: #FFD700;
 }
 
 /* Formulário */
@@ -29,7 +35,7 @@ input[type=number] {
     width: 90px;
     padding: 8px;
     border-radius: 5px;
-    border: 1px solid #cc470d;
+    border: 1px solid #FFD700;
 }
 
 /*tirar setinhas*/
@@ -37,6 +43,7 @@ input[type=number] {
 input[type=number]::-webkit-inner-spin-button {
     /* retirar as setinhas o input number do chrome */
     -webkit-appearance: none;
+    color: #FFD700;
 }
 
 input[type=number] {
@@ -50,22 +57,25 @@ input[type=number] {
     display: flex;
     justify-content: center;
     margin: 25px 0px 25px 0px;
+    color: #ffffff;
 }
 
 .Radio p {
     padding-right: 25px;
     font-weight: 700;
+    color: #ffffff;
 }
 
 .Sexo {
     padding: 0px 20px 0px 5px;
+    color: #FFD700;
 }
 
 #atividade {
     margin-bottom: 25px;
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid #cc470d;
+    border: 1px solid #FFD700;
 }
 
 input[type=button] {
@@ -73,16 +83,16 @@ input[type=button] {
     margin-right: 15px;
     border-radius: 25px;
     border: none;
-    background-color: #cc470d;
-    color: #fff;
+    background-color: #FFD700;
+    color: #000000;
 }
 
 input[type=reset] {
     padding: 10px 25px 10px 25px;
     border-radius: 25px;
     border: none;
-    background-color: #000;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 /** Info IMC e FCM **/
@@ -91,23 +101,26 @@ input[type=reset] {
     justify-content: center;
     text-align: center;
     margin: 25px 0px 25px 0px;
+    color: #FFD700;
 }
 
 .Peso {
     text-align: center;
+    color: #FFD700;
 }
 
 .Fcm {
     display: flex;
     justify-content: center;
     text-align: center;
+    color: #FFD700;
 }
 
 /*** Calorias ***/
 #calorias {
     font-size: 2em;
     font-weight: 700;
-    color: #cc470d;
+    color: #FFD700;
 }
 
 /*** Coração pulsando ***/
@@ -121,6 +134,7 @@ input[type=reset] {
     margin-left: 50px;
     animation: pulsar 0.7s infinite alternate;
     z-index: -1;
+    margin-top: 30px;
 }
 
 .Quadrado {
@@ -150,7 +164,8 @@ input[type=reset] {
 #freq{
     position: absolute;
     padding-left: 50px;
-    color: #fff;
+    color: #FFD700;
+    padding-top: 30px;
 }
 
 /* Animação cm CSS */
